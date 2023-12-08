@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.iDine4u" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.SplashScreenTheme" parent="Theme.iDine4u">
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_camera</item>
+        <item name="postSplashScreenTheme">@style/Theme.iDine4u</item>
+    </style>
+</resources>
